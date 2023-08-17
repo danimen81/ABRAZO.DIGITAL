@@ -10,7 +10,7 @@ if (enteredPassword === 'alzarme') {
     }
     return;
 });
-// This code will change the color of the boxes when the mouse is hovered over them.
+
 
 $('.box').hover(function() {
     $(this).css('background-color', '#ccc');
@@ -18,12 +18,7 @@ $('.box').hover(function() {
     $(this).css('background-color', '#fff');
   });
   
-  // This code will open a new page when a box is clicked.
-  
-  //$('.box a').click(function() {
-  //  window.location = $(this).attr('href');
-  //});
-  
+ 
 
 
 

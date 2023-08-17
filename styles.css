@@ -18,7 +18,7 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: rgba(108, 66, 66, 0.863);
   font-size: 16px;
   text-decoration-line: underline;
 }
@@ -86,3 +86,9 @@ h1{
   font-size: 18px;
   text-decoration-line: underline;
 }
+h2{
+  color:rgb(16, 11, 8);
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+};
