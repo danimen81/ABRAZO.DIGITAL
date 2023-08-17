@@ -1,0 +1,88 @@
+body {
+  border: 0;
+  margin: 0;
+  /*
+    justify-content: flex-end;
+    align-items: center;*/
+  background-image: url("./src/horizonte.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  font-size: 16px;
+  text-decoration-line: underline;
+}
+
+h1{
+  text-align: center;
+  color:maroon;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  min-height: 80vh;
+}
+
+.box {
+  display: flex;
+  flex-basis: calc(46% - 10px);
+  width: fit-content;
+  height: 150px;
+  justify-content:space-between;
+  align-content:center;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.box:hover {
+  background-color: #ccc;
+}
+
+.box a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
